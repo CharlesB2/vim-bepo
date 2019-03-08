@@ -70,6 +70,8 @@ call s:amap(  'wC', '<C-w>H' )    "idem pour les majuscules
 call s:amap(  'wT', '<C-w>J' )    "idem pour les majuscules
 call s:amap(  'wS', '<C-w>K' )    "idem pour les majuscules
 call s:amap(  'wR', '<C-w>L' )    "idem pour les majuscules
-call s:amap(  'wh', '<C-w>s' )    "crée un split _h_orizontal
-call s:amap(  'wé', '<C-w>t' )    "va en haut à gauche
-call s:amap(  'wÉ', '<C-w>T' )    "déplace sur un nouveau tab
+call s:amap(  'wk', '<C-w>s' )    "crée un split horizontal
+call s:amap(  'wl', '<C-w>c' )    "ferme la fenêtre courante
+call s:amap(  'wh', '<C-w>t' )    "go to top-left
+call s:amap(  'wj', '<C-w>r' )    "rotate windows down/right 
+call s:amap(  'wJ', '<C-w>R' )    "rotate windows up/left
